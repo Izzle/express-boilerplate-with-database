@@ -17,6 +17,7 @@ Complete the following steps to start a new project (NEW-PROJECT-NAME):
 9. Update the DB_URL and TEST_DB_URL links in your .env file.
 10. Create migrations and seeds folders and create your migration and seed files. Type `npm run migrate` and `npm run migrate:test` to create the tables. 
 11. Seed your database with `psql -U your_username -d example-database-name -f ./seeds/seed.example_seed_file.sql` (do NOT seed your test database! We will do that in the tests themselves.)
+12. Delete `/src/examples` before you deploy or if you no longer need the reference.
 
 ## Scripts
 
